@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*srcroll*/
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* parte do header*/
+
+.header{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+  
+    height: 50px;
+    padding-top: 30px;
+    border-top: 20px;
+    
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    
+}
+
+.header ul{
+    list-style: none;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.644);
+}
+
+.img-logo{
+    display: flex;
+    padding-top: 10px;
+}
+
+.img-logo a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 20px
+}
+
+.nav-bar a{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.nav-bar a:hover{
+    color: blue;
+    font-size: 21px;
+    transition: 0.5s;
+}
+
+main {
+    height: 110vh;
+    background-image: url(img/advogado.jpg); /* Substitua pelo URL da sua imagem */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.principal{
+    padding: 20px;
+    margin-left: 80px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+main h1,p{
+    color: #000000;
+    
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    width: 400px;
+    margin: 10px 0 0 0;
+}
+
+.btn button{
+    color: rgb(0, 0, 0);
+    width: 130px;
+    height: 50px;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-left: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.btn  :hover{
+    border-right: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-left: 2px solid blue;
+    border-top: 2px solid blue;
+    font-size: 18px;
+    transition: 0.5s;
+    color: blue;
+}
+
+
+/*section*/
+
+
+.sobre{
+    display: flex;
+    margin-top: 90px;
+}
+
+ .img{
+    margin-left: 260px;
+    margin-right: auto;
+
+}
+
+.txt-sobre{
+    margin-top: 50px;
+    margin-right: 450px;
+    margin-left: auto;
+}
+
+/*especialidades*/
+
+.color h1{
+    text-align: center;
+    padding-top: 20px
+}
+
+.color{
+    background-color: #e9f2f9;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.container .card:hover{
+    border: 1px solid blue;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-sizing: border-box;
+    margin-top: 30px;
+   
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #343a40;
+}
+
+.card p {
+    color: #495057;
+    width: 250px;
+    font-size: 15px;
+}
+
+/*footer*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    flex: 1;
+}
+
+.footer-logo h2 {
+    margin: 0;
+}
+
+.contact-info, .social-media {
+    flex: 2;
+}
+
+.contact-info h3, .social-media h3 {
+    margin-top: 0;
+}
+
+.contact-info p, .social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media a {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
